@@ -1,4 +1,5 @@
 ﻿using System;
+using LunchBuddies;
 
 namespace LunchBuddies
 {
@@ -6,7 +7,8 @@ namespace LunchBuddies
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Lunch Buddies!");
+            Console.WriteLine("hello");
         }
+
     }
 }
