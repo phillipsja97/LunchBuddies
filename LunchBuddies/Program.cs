@@ -1,5 +1,4 @@
 ﻿using System;
-using LunchBuddies;
 
 namespace LunchBuddies
 {
@@ -7,8 +6,16 @@ namespace LunchBuddies
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello");
+            var rando = new LunchBuddy("Jamie", "Phillips");
+            var friend1 = new LunchBuddy("Ronald", "Reagan");
+            rando.Eating();
+            friend1.eat("spaghetti");
+            rando.Company();
+            friend1.WhatToEat("Fried Chicken");
+            var companion = new LunchBuddy("Jamie", "Phillips");
+            Console.ReadLine();
         }
 
+       
     }
 }
